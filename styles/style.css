@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    color: #747474;
+    
+}
+
+
+.DivPrincipal{
+    max-width: 1015px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+
+.BarreDeNavigation{
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo{
+    width: 268px;
+}
+
+.Menu{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.Menu>a{
+    text-decoration: none;
+    color: #ababab;
+    padding: 10px;
+}
+
+.Menu>a:hover{
+    color: #00b39b;
+}
+
+.Slogan{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color: #00b39b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.APropos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.Service{
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    height: 280px;
+}
+
+.TitreService{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+
+.Marques{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+}
+
+.LogosMarques{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Marques>p{
+    color: #00b39b;
+    font-size: 24px;
+}
+
+.Bureaux{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bureaux>h1{
+    color: #00b39b;
+}
+
+.Bureau{
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: whitesmoke;
+
+}
+
+.Bureau>img{
+    width: 309px;
+    height: 278px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.gridBureaux{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+
+.infosBureau{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.infosBureau>p{
+    font-weight: bolder;
+}
+
+.bouttonBureau{
+    border-radius: 4px;
+    padding: 10px 20px;
+    background: #3d83df;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease 0s;
+}
+
+.Contact{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+}
